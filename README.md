@@ -15,3 +15,6 @@ The Garmin data comes distributed in different directories and with very coded n
 ```
 python create_sleep_dataset.py
 ```
+
+## Contribution
+Pull requests and issues are welcome.
