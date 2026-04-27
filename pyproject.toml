@@ -8,8 +8,14 @@ dependencies = [
     "ipykernel>=6.31.0",
     "matplotlib>=3.9.4",
     "pandas>=2.3.3",
+    "ruff>=0.15.12",
     "somnium",
 ]
 
 [tool.uv.sources]
 somnium = { git = "https://github.com/ivallesp/somnium" }
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.12",
+]
